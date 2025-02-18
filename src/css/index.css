@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.homepage-container{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+@media (max-width: 640px) {
+    .homepage-container{
+        height: 400px;
+        width: 100%;
+        padding: 0;
+    }
+}
