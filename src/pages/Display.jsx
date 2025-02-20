@@ -7,7 +7,7 @@ function Display(){
         <div className="mt-16 flex flex-col">
             <Displayheader/>
             <Displayform/>
-            <div>
+            <div className="text-center mt-16">
                 <h1>the latest information from the database will appear here</h1>
             </div>
         </div>
