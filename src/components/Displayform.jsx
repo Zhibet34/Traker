@@ -50,7 +50,7 @@ function Displayform() {
                 <div className="flex items-end">
                     <button
                         type="submit"
-                        className="text-center w-1/2 md:w-1/2 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 mx-auto md:ml-0"
+                        className="text-center w-1/2 md:w-1/2 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 mx-auto lg:ml-0"
                     >
                         Add
                     </button>
