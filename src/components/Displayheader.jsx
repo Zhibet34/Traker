@@ -12,7 +12,6 @@ function Displayheader() {
             try {
                 const response = await axios.get('http://localhost:3000/');
                 const data = response.data;
-                console.log("Data received:", data); 
                 const {name, tour} = data[0]
                 setName(name || 'No name available');
                 setTour(tour || 'No tour available');
